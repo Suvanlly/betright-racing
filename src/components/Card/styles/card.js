@@ -13,6 +13,6 @@ export const CardWrapper = styled.div`
   border-radius: 5px;
 `
 export const CardContent = styled.p`
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
 `

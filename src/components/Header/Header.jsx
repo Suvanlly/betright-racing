@@ -7,13 +7,13 @@ const Header = () => (
     <Title>Upcoming racing</Title>
     <CatergoryWrap>
       <Link to="/greyhound">
-        <Category>Greyhound</Category>
+        <Category id="greyhound">Greyhound</Category>
       </Link>
       <Link to="/harness">
-        <Category>Harness</Category>
+        <Category id="harness">Harness</Category>
       </Link>
       <Link to="/thoroughbred">
-        <Category>Thoroughbred</Category>
+        <Category id="thoroughbred">Thoroughbred</Category>
       </Link>
     </CatergoryWrap>
   </HeaderWrapper>

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Subtitle = styled.p`
+export const SubtitleWrapper = styled.p`
   text-align: center;
   font-size: 48px;
   margin: 40px auto 0;

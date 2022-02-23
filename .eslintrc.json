@@ -1,0 +1,15 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
+	"extends": [
+		"airbnb",
+		"eslint:recommended",
+		"plugin:react/recommended"
+	],
+  "rules": {
+    // prohibit act wrapping error in test
+    "testing-library/no-unnecessary-act": ["error", {"isStrict": true}]
+  }
+}

@@ -7,6 +7,7 @@ const RaceCardGroup = ({ data }) => {
   return (
     <CardGroupWrapper>
       {data.slice(0, 5).map((item) => {
+        // map each item in the data list and format the Start time
         const formattedStartTime = moment(item.Race1.AdvertisedStartTime)
           .toDate()
           .toLocaleTimeString()

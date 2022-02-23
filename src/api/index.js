@@ -1,7 +1,7 @@
 import axios from "axios"
 
 export const fetchUpcomingRacing = () => axios({
-  // Set up headers as required
+  // Use GET method to fetch data
   method: 'GET',
   url: "https://www.betright.com.au/api/racing/todaysracing",
 })
