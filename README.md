@@ -8,14 +8,23 @@ can see that every racing card is presented in front of them. They can easily kn
 Race Number and Start Time of the race. Users can navigate to different categories through clicking
 the button.
 
-![Product Name Screen Shot](src/assets/Readme/Homepage.png)
+![Product Name Screen Shot](src/assets/Readme/PageDisplay.png)
 
-### `npm start`
+## Context
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
+## Prerequisites
+
+- npm
+
+## Installation
+
+`npm install` - Install dependenies <br />
+`npm start` - Run application <br />
+`npm run test` - Run testing
+
+## Contact
+
+Sophie Sun - Sophiesun.au@gmail.com
 
