@@ -17,8 +17,6 @@ The front-end framework for this project is React.js and also included React hoo
 
 Only being able to show the upcoming racing details is not attractive enough, so I choose styled-component to styling the component because it is more in line with React component-based development. And I also create subtitle for users to easily find out the category they selected when they view the upcoming racing.
 
-In addition, Eslint configuration is necessary to handle code format and can help with presenting maintainable and readable code.
-
 Finally, in terms of testing, react-testing-library was a good choice since it is a default dependency of create-reate-app which can be used without the third party tool.
 
 ## Testing
