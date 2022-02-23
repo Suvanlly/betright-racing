@@ -8,6 +8,7 @@ can see that every racing card is presented in front of them. They can easily kn
 Race Number and Start Time of the race. Users can navigate to different categories through clicking
 the button.
 
+![Product Name Screen Shot](src/assets/Readme/Homepage.png)
 
 ### `npm start`
 
