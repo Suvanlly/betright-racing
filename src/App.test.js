@@ -6,11 +6,13 @@ import App from './App';
 
 let container
 
+// before each test, add an element of div with name of container to the document
 beforeEach(() => {
   container = document.createElement('div');
   document.body.appendChild(container);
 });
 
+// after each test, remove that container from the body of document
 afterEach(() => {
   document.body.removeChild(container);
   container = null;
@@ -19,8 +21,10 @@ afterEach(() => {
 test('should allow to navigate to different categories if button is clicked', () => {
   // should navigate to greyhound when greyhound button is clicked
   act(() => {
+    // Inside DOM, render the <APP /> component inside container
     ReactDOM.render(<App />, container)
   });
+  // act() is like mock events, it makes sure all updates have been processed and applied to DOM before make any assertions (expect..equal..)
   act(() => {
     const goGreyHoundLink = container.querySelector("#greyhound")
     // mock an mouse event to click the element in the document with id of "greyhound"
